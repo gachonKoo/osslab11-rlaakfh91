@@ -1,4 +1,4 @@
-import geo.utils as utils
+import utils
 
 a, b = 3, 4
 c = pythagoras(a, b)
