@@ -2,8 +2,9 @@ import utils as utils
 import math
 
 a, b = 3, 4
-c = math.sqrt(a, b)
-print('c =', c)
+d= a*a+b*b
+c = math.sqrt(d)
+print('c =', d)
 
 r = 10
 area = math.pi * r
