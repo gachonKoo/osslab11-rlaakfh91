@@ -1,9 +1,10 @@
 import utils as utils
+import math
 
 a, b = 3, 4
-c = pythagoras(a, b)
+c = math.sqrt(a, b)
 print('c =', c)
 
 r = 10
-area = circle(r)
+area = math.pi * r
 print('area =',area)
