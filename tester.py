@@ -1,9 +1,8 @@
-import utils as utils
+import utils
 import math
 
 a, b = 3, 4
-d= a*a+b*b
-c = math.sqrt(d)
+c = pythagoras(a,b)
 print('c =', c)
 
 r = 10
